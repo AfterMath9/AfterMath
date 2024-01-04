@@ -262,6 +262,7 @@ async function getInputValue() {
         await startDvdAnimation();
     } else if (value === "projects" || value === "Projects") {
         trueValue(value);
+        createText("AfterMath-GPT: Your all in one Telegram AI bot!");
         createText("Snaky -  The Classic Nokia Game, Now on All Devices! <span class='blue'>Use 'social -a' to follow me for future projects.</span>");
     } else if (value === "whoami" || value === "Whoami") {
         trueValue(value);
